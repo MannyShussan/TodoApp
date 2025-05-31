@@ -83,10 +83,3 @@ Este projeto está licenciado sob a licença MIT.
 ---
 
 Feito com ❤️ por [Flávio Miranda](https://github.com/MannyShussan)
-
-### Dicas para personalização:
-
-1. Adicione screenshots reais na pasta `public/` e referencie no README
-2. Inclua um gif ou vídeo demonstrando as funcionalidades
-3. Adicione badges de status (build, coverage etc) se aplicável
-4. Liste as dependências principais com versões
