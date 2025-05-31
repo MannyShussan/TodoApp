@@ -1,46 +1,94 @@
-# Getting Started with Create React App
+# 📝 ToDo App com React, Redux e TypeScript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Preview App](image.png)
 
-## Available Scripts
+## ✨ Funcionalidades Principais
 
-In the project directory, you can run:
+- ✅ **CRUD completo** de tarefas
+- 🌓 **Tema claro/escuro** com persistência
+- 🏷️ Filtros por status (completas/pendentes)
+- 📱 Design **totalmente responsivo**
+- ⚡ Armazenamento local com **Redux Persist**
+- 🛣️ Navegação com **React Router**
 
-### `npm start`
+## 🛠️ Tecnologias Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white)
+- ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?logo=typescript&logoColor=white)
+- ![Redux](https://img.shields.io/badge/-Redux-764ABC?logo=redux&logoColor=white)
+- ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?logo=tailwind-css&logoColor=white)
+- ![React Router](https://img.shields.io/badge/-React_Router-CA4245?logo=react-router&logoColor=white)
+- ![Heroicons](https://img.shields.io/badge/-Heroicons-4299E1)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🚀 Como Executar Localmente
 
-### `npm test`
+1. **Clone o repositório**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone https://github.com/seu-usuario/todo-app.git
+   cd todo-app
+   ```
 
-### `npm run build`
+2. **Instale as dependências**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Inicie o servidor de desenvolvimento**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm start
+   ```
 
-### `npm run eject`
+4. **Acesse no navegador**
+   ```
+   http://localhost:3000
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 📦 Scripts Úteis
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Comando          | Descrição                            |
+| ---------------- | ------------------------------------ |
+| `npm start`      | Inicia o servidor de desenvolvimento |
+| `npm run build`  | Cria uma build para produção         |
+| `npm test`       | Executa os testes                    |
+| `npm run format` | Formata o código com Prettier        |
+| `npm run lint`   | Verifica problemas de linting        |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🌐 Deploy
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+A aplicação está disponível em:  
+🔗 [https://todo-app-phi.vercel.app](https://todo-app-rust-kappa.vercel.app/)
 
-## Learn More
+## 🎯 Melhorias Futuras
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [ ] Autenticação de usuários
+- [ ] Sincronização com backend
+- [ ] Categorias/etiquetas para tarefas
+- [ ] Modo offline com Service Workers
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🤝 Como Contribuir
+
+1. Faça um fork do projeto
+2. Crie uma branch (`git checkout -b feature/nova-feature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
+4. Push para a branch (`git push origin feature/nova-feature`)
+5. Abra um Pull Request
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença MIT.
+
+---
+
+Feito com ❤️ por [Flávio Miranda](https://github.com/MannyShussan)
+
+_(Personalize com suas informações reais de contato e links)_
+
+### Dicas para personalização:
+
+1. Adicione screenshots reais na pasta `public/` e referencie no README
+2. Inclua um gif ou vídeo demonstrando as funcionalidades
+3. Adicione badges de status (build, coverage etc) se aplicável
+4. Liste as dependências principais com versões
