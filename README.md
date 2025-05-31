@@ -84,8 +84,6 @@ Este projeto está licenciado sob a licença MIT.
 
 Feito com ❤️ por [Flávio Miranda](https://github.com/MannyShussan)
 
-_(Personalize com suas informações reais de contato e links)_
-
 ### Dicas para personalização:
 
 1. Adicione screenshots reais na pasta `public/` e referencie no README
